@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".login"
+
+    >
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerVertical="true"
+        android:layout_marginTop="200dp"
+        android:drawablePadding="8dp"
+        android:hint="Enter Your Phone Number"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:textColor="@color/dark_blue"
+        android:textColorHint="@color/dark_blue"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/generateOtpButton"
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="20dp"  android:backgroundTint="@color/blue"
+        android:text="Generate otp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/generateOtpButton"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="8dp"
+        android:hint="OTP"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="@color/dark_blue"
+        android:textColorHint="@color/dark_blue"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/verifyOtpButton"
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+        android:layout_below="@id/otp"
+        android:layout_marginTop="20dp"  android:backgroundTint="@color/blue"
+        android:text="Enter otp"
+        android:textSize="18sp" />
+
+</RelativeLayout>

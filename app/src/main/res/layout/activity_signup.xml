@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".signup"
+
+    >
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Phone Number"
+        android:textSize="20dp"
+        android:textColor="@color/bl"
+        android:layout_marginTop="30dp"  android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="20dp"  android:drawablePadding="8dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:textColor="@color/dark_blue"
+        android:textColorHint="@color/dark_blue"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="20dp"  android:backgroundTint="@color/blue"
+        android:text="Generate otp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Button"
+        android:layout_marginTop="20dp"  android:drawablePadding="8dp"
+        android:hint="OTP"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="@color/dark_blue"
+        android:textColorHint="@color/dark_blue"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+        android:layout_below="@id/otp"
+        android:layout_marginTop="20dp"  android:backgroundTint="@color/blue"
+        android:text="Enter otp"
+        android:textSize="18sp" />
+
+</RelativeLayout>

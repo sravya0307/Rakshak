@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "734044711252",
+    "project_id": "safety-322ea",
+    "storage_bucket": "safety-322ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734044711252:android:12fad131500392205740c1",
+        "android_client_info": {
+          "package_name": "com.example.rakshakkaraksha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0jbqmQUqZjvjQnD71TThNdXGRYzHbPUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
